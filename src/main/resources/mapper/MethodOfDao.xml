@@ -1,0 +1,14 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example3.demo3.dao.MethodOfDao">
+    <resultMap id = "userResultMap" type = "com.example3.demo3.entity.Entity">
+        <result column = "userName" jdbcType = "VARCHAR" property = "userName" />
+        <result column = "depart" jdbcType = "VARCHAR" property = "depart" />
+    </resultMap>
+
+    <select id = "enquiryUserInf" parameterType = "java.lang.String" resultMap = "userResultMap">
+
+        select userName, depart
+        from project1 where userName = #{userName}
+    </select>
+</mapper>
