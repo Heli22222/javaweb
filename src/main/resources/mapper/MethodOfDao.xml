@@ -11,4 +11,6 @@
         select userName, depart
         from project1 where userName = #{userName}
     </select>
+
+
 </mapper>

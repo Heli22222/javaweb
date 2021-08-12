@@ -40,6 +40,11 @@ public class Controller {
         return entity;
     }
 
+  /*  @GetMapping("/delete")
+    public void delete(String userName){
+        Entity entity = entranceOfContr.deleteUserInf(userName);
+        System.out.println("delete finished");
+    }*/
 
 //The following is a test of restemplate
 
@@ -49,6 +54,5 @@ public class Controller {
         String result = restTemplate.getForObject("http://localhost:8080/queryUser?userName=1",String.class);
         System.out.println("hello");
         return result;
-
     }
 }

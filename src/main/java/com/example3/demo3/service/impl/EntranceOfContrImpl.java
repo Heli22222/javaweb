@@ -11,7 +11,14 @@ public class EntranceOfContrImpl implements EntranceOfContr {
     @Autowired
     private MethodOfDao methodOf;
 
-    public Entity enquiryUserInf(String userName){
+
+    public Entity enquiryUserInf(String userName) {
         return methodOf.enquiryUserInf(userName);
     }
 }
+   /* @Override
+    public Entity deleteUserInf(String userName) {
+        return methodOf.deleteUserInf(userName);
+    }
+
+*/

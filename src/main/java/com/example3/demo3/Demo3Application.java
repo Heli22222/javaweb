@@ -9,10 +9,12 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @MapperScan("com.example3.demo3.dao")
+
 public class Demo3Application {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Demo3Application.class, args);
+
 	}
 
 	/*@Bean
@@ -34,7 +36,6 @@ public class Demo3Application {
 
 		return restTemplate;
 	}
-
 }
 
 

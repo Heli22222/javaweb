@@ -7,4 +7,5 @@ public interface EntranceOfContr {
 
     Entity enquiryUserInf(String userName);
 
+   // String deleteUserInf(Entity entity);
 }
