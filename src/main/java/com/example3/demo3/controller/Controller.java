@@ -9,6 +9,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
+/**FUCKI THIS GUYS
+ *
+ *
+ *
+ *
+ */
 @RestController
 @RequestMapping
 public class Controller {
