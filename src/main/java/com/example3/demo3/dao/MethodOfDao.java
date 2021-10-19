@@ -7,6 +7,7 @@ import org.apache.ibatis.annotations.Mapper;
 //public class Entrance{
 
     public interface MethodOfDao {
+
     Entity enquiryUserInf(String userName);
 
    // String deleteUserInf(String userName);

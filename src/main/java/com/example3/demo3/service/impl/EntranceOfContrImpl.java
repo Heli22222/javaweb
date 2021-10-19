@@ -15,6 +15,8 @@ public class EntranceOfContrImpl implements EntranceOfContr {
     public Entity enquiryUserInf(String userName) {
         return methodOf.enquiryUserInf(userName);
     }
+
+
 }
    /* @Override
     public Entity deleteUserInf(String userName) {

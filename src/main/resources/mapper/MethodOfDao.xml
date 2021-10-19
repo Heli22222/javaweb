@@ -8,7 +8,7 @@
 
     <select id = "enquiryUserInf" parameterType = "java.lang.String" resultMap = "userResultMap">
 
-        select userName, depart
+        select  depart
         from project1 where userName = #{userName}
     </select>
 

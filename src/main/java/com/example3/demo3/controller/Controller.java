@@ -13,6 +13,8 @@ import org.springframework.web.client.RestTemplate;
  *
  *
  *
+ * 廷他探讨特她特他特廷特
+ *
  *
  */
 @RestController
@@ -40,10 +42,10 @@ public class Controller {
     }
 
     @GetMapping("/queryUser")
-    public Entity enquiryUser(String userName){
-
-        Entity entity = entranceOfContr.enquiryUserInf(userName);
-        return entity;
+    public String enquiryUser(String userName){
+        Entity entity = entranceOfContr.enquiryUserInf(userName);//   entity = return jdnnndnd
+       //Entity entity = entranceOfContr.enquiryUserInf(userName);
+        return entity.getDepartment();
     }
 
   /*  @GetMapping("/delete")
